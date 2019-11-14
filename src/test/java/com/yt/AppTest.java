@@ -66,6 +66,8 @@ public class AppTest{
         System.out.println(tRoles);
     }
 
+    //鉴别映射器
+
     @Test
     public void selectByDiscriminator(){
         SqlSession sqlSession = sqlSessionFactory.openSession();
